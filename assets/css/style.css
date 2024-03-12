@@ -17,6 +17,9 @@
 }
 
 /* ----------------------------------------padding */
+.py-100 {
+    padding: 100px 0;
+}
 .pt-14 {
     padding-top: 14px;
 }
@@ -25,6 +28,9 @@
 }
 .pt-35 {
     padding-top: 35px;
+}
+.pt-39 {
+    padding-top: 39px;
 }
 .pt-40 {
     padding-top: 40px !important;
@@ -37,6 +43,14 @@
     top: 0;
     max-width: 626px;
     left: 30%;
+}
+.Ellipse21 {
+    left: 0;
+    top: -20%;
+}
+.Ellipse22 {
+    right: 0;
+    top: 0;
 }
 
 
@@ -131,6 +145,52 @@
     margin-right: 8px;
     margin-left: 8px;
 }
+/* -------------------two */
+.first-slider .slick-slider {
+    margin: 0 -8px;
+}
+
+.first-slider .slick-slide {
+    margin-right: 8px;
+    margin-left: 8px;
+}
+
+.first-slider .slick-current .box {
+    border: 1px solid var(--active-border);
+}
+
+.first-slider .slick-current .box h5 {
+    color: var(--orange);
+}
+.first-slider .slick-list {
+    padding: 0 8% 0 0 !important;
+}
+.first-slider .slick-dots li button:before {
+    height: 5px;
+    width: 16px;
+    background-color: var(--black);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 6px;
+    font-size: 0;
+    opacity: 10%;
+}
+
+.first-slider .slick-dots li.slick-active button:before {
+    width: 23px;
+    opacity: 1;
+    height: 5px;
+    background-color: var(--orange);
+}
+.box {
+    max-width: 156px !important;
+    height: 141px;
+    border-radius: 8px;
+    padding: 25px 9px 9px 9px;
+    box-shadow: 0px 4px 30px 0px var(--box-shadow);
+    border: 1px solid var(--box-border);
+}
 
 /* -----------------------------------------slider */
 /* -----------------------------------------animation */
@@ -208,6 +268,15 @@
 
 .img-drop-shadow {
     filter: drop-shadow(0px 3px 35px var(--img-shadow));    
+}
+.rounded-18 {
+    border-radius: 18px;
+}
+.firstimg {
+    box-shadow: 0px 3px 35px 0px var(--shadow);
+}
+.duration-300 {
+    transition: all 300ms linear;
 }
 /* ------------------------------------------navbar */
 .hamburger {
@@ -332,6 +401,13 @@
         width: 40px;
         height: 34px;
     }
+    .first-slider .slick-slider {
+        margin: 0 -7px;
+    }
+    .first-slider .slick-slide {
+        margin-right: 7px;
+        margin-left: 7px;
+    }
 
     
 }
@@ -341,6 +417,18 @@
     }
     .pt-sm-102 {
         padding-top: 102px;
+    }
+    .pt-sm-60 {
+        padding-top: 60px;
+    }
+    .px-sm-28 {
+        padding: 0 28px;
+    }
+    .py-sm-120 {
+        padding: 120px 0;
+    }
+    .py-sm-18 {
+        padding: 18px 0 !important;
     }
     .circle-orange::before {
         top: -30px;
@@ -383,6 +471,12 @@
     }
     .pt-lg-166 {
         padding-top: 166px !important;
+    }
+    .pt-lg-165 {
+        padding-top: 165px !important;
+    }
+    .pb-lg-160 {
+        padding-bottom: 160px !important;
     }
     .group {
         top: 15%;
