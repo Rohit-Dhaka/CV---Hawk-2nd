@@ -29,6 +29,7 @@
 .py-40 {
     padding: 40px 0;
 }
+
 .py-100 {
     padding: 100px 0;
 }
@@ -50,11 +51,20 @@
 .pt-40 {
     padding-top: 40px !important;
 }
+.pt-43 {
+    padding-top: 43px;
+}
 .pb-40 {
     padding-bottom: 40px;
 }
+.pt-100 {
+    padding-top: 100px;
+}
 .pb-50 {
     padding-bottom: 50px !important;
+}
+.pb-105 {
+    padding-bottom: 105px;
 }
 
 /* ----------------------------------------padding */
@@ -89,6 +99,13 @@
 .Ellipse42 {
     left: 0;
     bottom: -5%;
+}
+.Ellipse61 {
+    right: 0;
+}
+.Ellipse62 {
+    left: 0;
+    bottom: 0;
 }
 .clip3 {
     left: 6%;
@@ -503,6 +520,12 @@
     .pt-sm-80 {
         padding-top: 80px !important;
     }
+    .pt-sm-120 {
+        padding-top: 120px;
+    }
+    .pb-sm-120 {
+        padding-bottom: 120px;
+    }
     .group83 {
         bottom: 5%;
         right: 40%;
@@ -555,6 +578,9 @@
 
 }
 @media (min-width: 768px ) {
+    .max-w-md-465{
+        max-width: 465px;
+    }
 
 }
 @media (min-width: 992px) {
@@ -594,6 +620,13 @@
     .pb-lg-107 {
         padding-bottom: 107px !important;
     }
+    .pt-lg-135 {
+        padding-top: 135px !important;
+    }
+    .pb-lg-163 {
+        padding-bottom: 163px !important;
+    }
+
     .group83 {
         bottom: 15%;
         right: 53%;
