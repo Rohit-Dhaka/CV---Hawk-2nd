@@ -39,6 +39,9 @@
 .pt-14 {
     padding-top: 14px;
 }
+.pt-20 {
+    padding-top: 20px;
+}
 .pt-30 {
     padding-top: 30px;
 }
@@ -85,6 +88,9 @@
 
 .mt-40 {
     margin-top: 40px;
+}
+.mb-64 {
+    margin-bottom: 64px;
 }
 /* ----------------------------------------margin */
 
@@ -168,6 +174,9 @@
 .max-w-766 {
     max-width: 766px;
 }
+.max-w-856 {
+    max-width: 856px;
+}
 .max-w-1140 {
     max-width: 1140px !important;
 }
@@ -186,6 +195,9 @@
 }
 .gap-17 {
     gap: 17px;
+}
+.gap-23 {
+    gap: 23px;
 }
 .gap-41 {
     gap: 41px;
@@ -346,6 +358,25 @@
 
 
 /* -----------------------------------------animation */
+/* ----------------------------acc-item */
+.acc-Item {
+    height: 76px;
+    border-bottom: 1px solid var(--acc-border);
+    padding: 24px 0px 24px 0;
+}
+
+.acc-Item svg {
+    min-width: 24px;
+}
+
+.acc-Item.acc-active {
+    height: unset;
+}
+
+.acc-Item.acc-active svg {
+    transform: rotate(180deg);
+}
+/* ----------------------------acc-item */
 
 .cursor-pointer {
     cursor: pointer;
@@ -541,6 +572,9 @@
     
 }
 @media (min-width: 576px) {
+    .acc-Item {
+        padding: 24px 33px 24px 0;
+    }
     .pb-sm-135 {
         padding-bottom: 135px !important;
     }
@@ -582,6 +616,12 @@
     }
     .ml-sm-30 {
         margin-left: 30px;
+    }
+    .mb-sm-40 {
+        padding-bottom: 40px !important;
+    }
+    .pt-sm-36 {
+        padding-top: 36px;
     }
     .left-btn {
         left: 0%;
@@ -712,6 +752,16 @@
     .gap-lg-65 {
         gap: 65px;
     }
+    .pt-lg-160 {
+        padding-top: 160px !important;
+    }
+    .mb-lg-30 {
+        margin-bottom: -30px !important;
+    }
+    .pt-lg-26 {
+        padding-top: 26px !important;
+    }
+
     .massage-box {
         padding: 15px 18px 14px;
         max-width: 357px;
