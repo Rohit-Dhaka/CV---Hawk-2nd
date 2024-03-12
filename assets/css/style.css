@@ -47,8 +47,19 @@
 .pt-40 {
     padding-top: 40px !important;
 }
+.pb-40 {
+    padding-bottom: 40px;
+}
 
 /* ----------------------------------------padding */
+/* ----------------------------------------margin */
+
+
+.mt-40 {
+    margin-top: 40px;
+}
+/* ----------------------------------------margin */
+
 /* ----------------------------------------Ellipse */
 
 .ellipse8 {
@@ -63,6 +74,15 @@
 .Ellipse22 {
     right: 0;
     top: 0;
+}
+.Ellipse41 {
+    right: 0;
+    top: 2%;
+}
+
+.Ellipse42 {
+    left: 0;
+    bottom: -5%;
 }
 .clip3 {
     left: 6%;
@@ -103,6 +123,9 @@
 }
 .max-w-525 {
     max-width: 525px;
+}
+.max-w-556 {
+    max-width: 556px;
 }
 .max-w-565 {
     max-width: 565px;
@@ -547,6 +570,10 @@
     
     .pt-lg-95 {
         padding-top: 95px !important;
+    }
+    .py-lg-160 {
+        padding: 160px 0 !important;
+
     }
     .group83 {
         bottom: 15%;
