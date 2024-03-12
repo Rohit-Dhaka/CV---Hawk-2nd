@@ -478,6 +478,12 @@
     .pb-lg-160 {
         padding-bottom: 160px !important;
     }
+    .max-w-lg-499 {
+        max-width: 499px !important;
+    }
+    .pt-lg-40 {
+        padding-top: 40px !important;
+    }
     .group {
         top: 15%;
         left: 3%;    
