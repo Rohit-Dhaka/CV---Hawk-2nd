@@ -15,10 +15,22 @@
 .font-Rubik {
     font-family: "Rubik", sans-serif;
 }
+/* ---------------------------------------color */
+.bg-gray {
+    background-color: var(--bg-gray);
+}
+/* ---------------------------------------color */
+
 
 /* ----------------------------------------padding */
+.py-40 {
+    padding: 40px 0;
+}
 .py-100 {
     padding: 100px 0;
+}
+.pt-11 {
+    padding-top: 11px;
 }
 .pt-14 {
     padding-top: 14px;
@@ -52,6 +64,12 @@
     right: 0;
     top: 0;
 }
+.clip3 {
+    left: 6%;
+    top: 9%;
+    animation: mymove 5s infinite;
+}
+
 
 
 
@@ -68,10 +86,24 @@
     transform: rotate(-38deg);
     height: 38px;
 }
+.group73 {
+    right: 7%;
+    top: 15%;
+}
+.group83 {
+    bottom: 15%;
+    right: 53%;
+}
 /* ----------------------------------------group */
 
 
 /* ----------------------------------------width */
+.max-w-487 {
+    max-width: 487px;
+}
+.max-w-525 {
+    max-width: 525px;
+}
 .max-w-565 {
     max-width: 565px;
 }
@@ -265,6 +297,9 @@
 .opacity-7 {
     opacity: 0.7;
 }
+.opacity-8 {
+    opacity: 0.8;
+}
 
 .img-drop-shadow {
     filter: drop-shadow(0px 3px 35px var(--img-shadow));    
@@ -430,6 +465,28 @@
     .py-sm-18 {
         padding: 18px 0 !important;
     }
+    .py-sm-92 {
+        padding: 92px 0;
+    }
+    .group83 {
+        bottom: 5%;
+        right: 40%;
+        width: 77px;
+        transform: rotate(-50deg);
+        height: 66px;
+    }
+    .group73 {
+        right: 2%;
+        top: 4%;
+        width: 31px;
+        height: 44.65px;
+    }
+    .clip3 {
+        left: 6%;
+        top: 10%;
+        width: 40px;
+        height: 40px;
+    }
     .circle-orange::before {
         top: -30px;
         right: 20%;
@@ -483,6 +540,33 @@
     }
     .pt-lg-40 {
         padding-top: 40px !important;
+    }
+    .py-lg-80 {
+        padding: 80px 0 !important;
+    }
+    
+    .pt-lg-95 {
+        padding-top: 95px !important;
+    }
+    .group83 {
+        bottom: 15%;
+        right: 53%;
+        width: 76px;
+        height: 52px;
+        transform: rotate(1deg);
+
+    }
+    .group73 {
+        right: 7%;
+        top: 15%;
+        width: 61px;
+        height: 87px;
+    }
+    .clip3 {
+        left: 6%;
+        top: 9%;
+        width: 64px;
+        height: 61px;
     }
     .group {
         top: 15%;
