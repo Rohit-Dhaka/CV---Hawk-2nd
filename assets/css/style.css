@@ -171,6 +171,12 @@
 .max-w-565 {
     max-width: 565px;
 }
+.max-w-615 {
+    max-width: 615px;
+}
+.max-w-669 {
+    max-width: 669px;
+}
 .max-w-766 {
     max-width: 766px;
 }
@@ -219,6 +225,18 @@
     background-color: var(--white);
     color: var(--orange) !important;
     border: 1px solid var(--orange);
+}
+.btn-2 {
+    border-radius: 41px;
+    padding: 17px 38px 17px 38px;
+    border: 1px solid transparent;
+}
+
+.btn-2:hover {
+    border: 1px solid var(--white);
+    background-color: var(--orange);
+    color: var(--white) !important;
+    opacity: 1;
 }
 /* ----------------------------------------btn */
 /* ----------------------------------------slider */
@@ -377,6 +395,11 @@
     transform: rotate(180deg);
 }
 /* ----------------------------acc-item */
+.orange-box {
+    background-color: var(--orange);
+    border-radius: 21px;
+    padding: 64px 30px;
+}
 
 .cursor-pointer {
     cursor: pointer;
@@ -566,6 +589,11 @@
         bottom: 3%;
         right: 40%;
     }
+    
+    .orange-box {
+        padding: 61px 21px;
+        transform: translateY(60px);
+    }
 
     
 
@@ -622,6 +650,10 @@
     }
     .pt-sm-36 {
         padding-top: 36px;
+    }
+    .orange-box {
+        padding: 36px 30px;
+        transform: translateY(80px);
     }
     .left-btn {
         left: 0%;
@@ -761,6 +793,11 @@
     .pt-lg-26 {
         padding-top: 26px !important;
     }
+    .orange-box {
+        padding: 64px 30px;
+        transform: translateY(190px);
+    }
+
 
     .massage-box {
         padding: 15px 18px 14px;
