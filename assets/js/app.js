@@ -105,6 +105,7 @@ $('.Clients-slick').slick({
   prevArrow: '.left-btn',
   nextArrow: '.right-btn',
   slidesToShow: 1,
+  fade: true,
   slidesToScroll: 1,
   responsive: [
     {
