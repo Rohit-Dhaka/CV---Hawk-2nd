@@ -486,6 +486,22 @@
 .border-top-1 {
     border-top: 1px solid var(--white-smoke);
 }
+.underline::after{
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 0;
+    display: inline-block;
+    bottom: -3px;
+    right: 0;
+    margin: 0 auto;
+    left: 0;
+    transition: all 300ms linear;
+    background-color: var(--white);
+}
+.underline:hover::after{
+    width: 100%;
+}
 /* ------------------------------------------navbar */
 .nav-link:hover {
     color: var(--orange);
