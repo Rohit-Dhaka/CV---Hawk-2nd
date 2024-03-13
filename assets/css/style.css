@@ -441,14 +441,14 @@
     background-size: cover;
     animation: mymove 5s infinite;
 }
-.line::before {
+/* .line::before {
     content: '';
     position: absolute;
     bottom: -11px;
     background: url("../img/svg/Rectangle68.svg");
     background-position: 100% 100%;
     background-size: cover;            
-}
+} */
 
 .three-line {
     overflow: hidden;
@@ -651,28 +651,28 @@
 }
 @media (min-width: 576px) {
     .pt-sm-63 {
-        padding-top: 63px;
+        padding-top: 63px !important;
     }
     .acc-Item {
-        padding: 24px 33px 24px 0;
+        padding: 24px 33px 24px 0 !important;
     }
     .pb-sm-135 {
         padding-bottom: 135px !important;
     }
     .gap-sm-40 {
-        gap: 40px;
+        gap: 40px !important;
     }
     .pt-sm-102 {
-        padding-top: 102px;
+        padding-top: 102px !important;
     }
     .pb-sm-78 {
         padding-bottom: 78px !important;
     }
     .pt-sm-60 {
-        padding-top: 60px;
+        padding-top: 60px !important;
     }
     .px-sm-28 {
-        padding: 0 28px;
+        padding: 0 28px !important;
     }
     .pb-sm-46 {
         padding-bottom: 46px !important;        
@@ -831,13 +831,13 @@
 }
 @media (min-width: 768px ) {
     .max-w-md-465{
-        max-width: 465px;
+        max-width: 465px !important;
     }
     .max-w-md-373 {
-        max-width: 373px;
+        max-width: 373px !important;
     }
     .pt-md-60 {
-        padding-top: 60px;
+        padding-top: 60px !important;
     }
 
 }
@@ -895,7 +895,7 @@
         padding-bottom: 163px !important;
     }
     .gap-lg-65 {
-        gap: 65px;
+        gap: 65px !important;
     }
     .pt-lg-160 {
         padding-top: 160px !important;
@@ -913,7 +913,7 @@
         padding-bottom: 69px !important;
     }
     .max-w-lg-496 {
-        max-width: 496px;
+        max-width: 496px !important;
     }
     .orange-box {
         padding: 64px 30px;
@@ -1011,11 +1011,13 @@
         content: '';
         position: absolute;
         bottom: -11px;
+        left: 0;
         background: url("../img/svg/Rectangle68.svg");
         background-position: 100% 100%;
-        background-size: contain;
+        background-size: cover;
         width: 274px;
         height: 11px;
+        /* background-color: red; */
     }
     .group7 {
         top: 70%;
