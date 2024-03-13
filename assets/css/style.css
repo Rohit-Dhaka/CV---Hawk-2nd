@@ -118,7 +118,7 @@
 }
 .Ellipse21 {
     left: 0;
-    top: -20%;
+    top: 0;
 }
 .Ellipse22 {
     right: 0;
@@ -303,6 +303,9 @@
 .first-slider .slick-slide {
     margin-right: 8px;
     margin-left: 8px;
+}
+.first-slider.slick-dotted.slick-slider{
+    margin-bottom: 0 !important;
 }
 
 .first-slider .slick-current .box {
@@ -687,7 +690,7 @@
         padding-bottom: 78px !important;
     }
     .pt-sm-60 {
-        padding-top: 60px !important;
+        padding-top: 60px ;
     }
     .px-sm-28 {
         padding: 0 28px !important;
@@ -887,8 +890,8 @@
     .pb-lg-80 {
         padding-bottom: 80px !important;
     }
-    .pt-lg-40 {
-        padding-top: 40px !important;
+    .pt-lg-47 {
+        padding-top: 47px !important;
     }
     .py-lg-80 {
         padding: 80px 0 !important;
@@ -1009,8 +1012,8 @@
         
     }
     .Elegant3 {
-        bottom: 0%;
-        right: 7%;
+        bottom: 5%; 
+        right: 7%;                 
         width: 289px;
         height: 299px;
         
