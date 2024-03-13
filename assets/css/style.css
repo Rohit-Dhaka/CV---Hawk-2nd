@@ -441,14 +441,15 @@
     background-size: cover;
     animation: mymove 5s infinite;
 }
-/* .line::before {
+.line::before {
     content: '';
     position: absolute;
     bottom: -11px;
     background: url("../img/svg/Rectangle68.svg");
     background-position: 100% 100%;
-    background-size: cover;            
-} */
+    background-size: contain;
+    background-repeat: no-repeat;     
+} 
 
 .three-line {
     overflow: hidden;
@@ -621,7 +622,8 @@
         bottom: -11px;
         background: url("../img/svg/Rectangle68.svg");
         background-position: 100% 100%;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 171px;
         height: 8px;
     }
@@ -1030,10 +1032,10 @@
         left: 0;
         background: url("../img/svg/Rectangle68.svg");
         background-position: 100% 100%;
-        background-size: cover;
+        background-size: contain;
+        background-repeat: no-repeat;
         width: 274px;
-        height: 11px;
-        /* background-color: red; */
+        height: 11px;        
     }
     .group7 {
         top: 70%;

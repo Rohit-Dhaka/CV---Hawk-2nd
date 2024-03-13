@@ -112,29 +112,21 @@ $('.Clients-slick').slick({
       breakpoint: 1024,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        infinite: true,
-        autoplay: true,
-        cssEase: 'linear'
-
+        slidesToScroll: 1,                        
       }
     },
     {
       breakpoint: 600,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        cssEase: 'linear'
+        slidesToScroll: 1,                
       }
     },
     {
       breakpoint: 480,
       settings: {
         slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        cssEase: 'linear'
+        slidesToScroll: 1,                
       }
     }
   ]
