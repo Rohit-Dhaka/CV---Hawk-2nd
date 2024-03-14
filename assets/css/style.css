@@ -7,7 +7,7 @@
     margin: 0;
     scroll-behavior: smooth;
     list-style: none !important;
-    /* outline: 1px solid red; */
+    outline: 1px solid red;
     text-decoration: none !important;
     box-sizing: border-box;
 }
