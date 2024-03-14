@@ -454,6 +454,7 @@
     background-repeat: no-repeat;     
 } 
 
+
 .three-line {
     overflow: hidden;
     text-overflow: ellipsis;
@@ -630,6 +631,7 @@
         width: 171px;
         height: 8px;
     }
+   
     .group8 {
         right: 2%;
         top: 35%;
@@ -800,7 +802,7 @@
         bottom: -7px;
         width: 208px;
         height: 11px;
-    }
+    }   
     .group7 {
         bottom: 40%;
         left: 7%;
@@ -1039,7 +1041,7 @@
         background-repeat: no-repeat;
         width: 274px;
         height: 11px;        
-    }
+    }  
     .group7 {
         top: 70%;
         left: 0;
@@ -1061,5 +1063,17 @@
         left: 3%;
         top: 50%;
         transform: translateY(-50%);
+    }
+    .line2::before {
+        content: '';
+        position: absolute;
+        bottom: -11px;
+        left: 0;
+        background: url("../img/line2.png");
+        background-position: 100% 100%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 376px;        
+        height: 7px;        
     }
 }
